@@ -3,22 +3,33 @@
     <head>
         <meta charset="UTF-8">
         <title>Bake Code - Home</title>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <link rel="stylesheet" href="header.css">
         <link rel="stylesheet" href="slide.css">
+        <link rel="stylesheet" href="content.css">
+        <link rel="stylesheet" href="footer.css">
         <script src="slide.js"></script>
     </head>
     <body onload="showSlides(1)">
+        <script>
+            function notif(){
+                alert("Website is still ongoing");
+            }
+        </script>
         <div class="header">
             <img src="imgs/logo.jpg" alt="logo">
         </div>
         <div class="nav">
             <div id="left">
                 <a href="home.html" id="home">Home</a>
-                <a href="home.html">Menu</a>
-                <a href="home.html">About Us</a>     
+                <a href="home.html" onclick="notif()">Menu</a>
+                <a href="home.html" onclick="notif()">About Us</a>
+
             </div>
             <div id="right">
-                <a href="home.html">Log in</a>
+                <a href="home.html" class="icn" onclick="notif()">
+                    <i class="fab fa-facebook"></i>
+                </a>
             </div>
         </div>
             
@@ -28,37 +39,76 @@
             
                 <div class="mySlides fade">
                     <div class="numbertext">1 / 3</div>
-                    <img src="imgs/half_yema.jpg" style="width:100%">
+                    <img src="imgs/half_yema.jpg" >
                     <div class="text">Half Yema</div>
                 </div>
                 
                 <div class="mySlides fade">
                     <div class="numbertext">2 / 3</div>
-                    <img src="imgs/crinkles.jpg" style="width:100%">
+                    <img src="imgs/crinkles.jpg">
                     <div class="text">Crinkles</div>
                 </div>
                 
                 <div class="mySlides fade">
                     <div class="numbertext">3 / 3</div>
-                    <img src="imgs/egg_pie.jpg" style="width:100%">
+                    <img src="imgs/egg_pie.jpg" >
                     <div class="text">Egg pie</div>
                 </div>
                 
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-                <br>
             
-            
-            
-            
-            <!--
-            <div class="text">
-                <h2>BakeCodePH</h2>
-                <p>
-
+            <div class="intro">
+                <div class="hed">
+                    Welcome to BakeCode<br>
+                </div>
+                <p>&emsp;&emsp;&emsp;&emsp;
+                    <b>BakeCodePH Pastries</b> is your source of your all time favorite yummy pastries! The shop offers varieties of breads, pastries and cakes. The breads are freshly baked with options of sweet or savory.
+                    <br><br>
+                    Experience our products while you have them at work, at a party or even when you travel.
+                    The BakeCodePH pastries is good for a snacks with friends and family either for indoor gathering or in traveling BakeCodePH patries is happy to acompany you ny providing delicious and sweet pastries.
+                    <br><br>
+                    BakeCodePH has always been and still a <b>made to order bakeshop</b>. In recent months all orders are pre orders and can be received within 3-5 days after your order is confirmed.
+                
                 </p>
-            </div>-->
+            </div>
+            <hr >
+            <div class="inq">
+                <div class="links">
+                    <h1>BakeCodePH Links</h1>
+                    <a href="https://www.facebook.com/BakeCodePH">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="https://www.instagram.com/bakecodeph/">
+                        <i class="fab fa-instagram-square"></i>
+                    </a>
+                </div>
+
+                
+                <div class="contact">
+                    <h1>For Inquiries:</h1>
+                    <p>
+                        Call <b>09959848364</b> or <b>8454-4264</b><br>
+                        8:30 am to 10:00 pm
+                    </p>
+                </div>
+
+                <div class="loc">
+                    <h1>BakeCodePH is Located at:</h1>
+                    <p>
+                        490 Dr. Sixto Antonio Avenue, Barangay Maybunga, Pasig City, Metro Manila, Philippines
+                    </p>
+                    
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="footer">
+            Copyright &copy; 2019 - 2020 BakeCodePH <br>
+
         </div>
 
     </body>
