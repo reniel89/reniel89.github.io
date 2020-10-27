@@ -1,5 +1,4 @@
 #cont-slide{
-  width: 400px;
   background-color:  #272727;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -8,17 +7,12 @@
 
 
 .carousel-control-prev, .carousel-control-next{
-  height: 50%;
-  margin-top: 10%;
   border-radius: 10px;
 }
-.carousel-control-prev:hover, .carousel-control-next:hover{
-  background-color: #f7ede2;
-
-
+.carousel-control-prev:active, .carousel-control-next:active{
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon{
-  color: #000000;
-  
+.carousel-indicators{
+  margin-bottom: -3%;
 }

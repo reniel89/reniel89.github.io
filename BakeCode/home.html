@@ -17,12 +17,8 @@
         <link rel="stylesheet" href="footer.css">
         <script src="slide.js"></script>
     </head>
-    <body onload="showSlides(1)">
-        <script>
-            function notif(){
-                alert("Website is still ongoing");
-            }
-        </script>
+
+    <body>
         <div class="header">
             <img src="imgs/logo.jpg" class="img-fluid" alt="logo">
         </div>
@@ -54,9 +50,10 @@
             </div>
           </nav>
             
+          
         <div class="container" id="cont">
             <!-- slideshow -->
-            <div  class="container-sm" id="cont-slide">
+            <div  class="container-fluid" id="cont-slide">
                 <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
                     <!-- Indicators -->
                     <ul class="carousel-indicators">
@@ -102,9 +99,9 @@
                 </p>
             </div>
 
-            <!--            <hr >
-            <div class="inq">
-                <div class="links">
+            <hr >
+            <div class="container">
+                <div class="container-sm" id="links">
                     <h1>BakeCodePH Links</h1>
                     <a href="https://www.facebook.com/BakeCodePH">
                         <i class="fab fa-facebook-square"></i>
@@ -115,7 +112,7 @@
                 </div>
 
                 
-                <div class="contact">
+                <div class="container-sm" id="contact">
                     <h1>For Inquiries:</h1>
                     <p>
                         Call <b>09959848364</b> or <b>8454-4264</b><br>
@@ -123,7 +120,7 @@
                     </p>
                 </div>
 
-                <div class="loc">
+                <div class="container-sm" id="loc">
                     <h1>BakeCodePH is Located at:</h1>
                     <p>
                         490 Dr. Sixto Antonio Avenue, Barangay Maybunga, Pasig City, Metro Manila, Philippines
@@ -131,11 +128,11 @@
                     
                 </div>
                 
-            </div>-->
+            </div>
 
         </div>
 
-        <div class="footer">
+        <div class="container-fluid" id="footer">
             Copyright &copy; 2019 - 2020 BakeCodePH <br>
 
         </div>

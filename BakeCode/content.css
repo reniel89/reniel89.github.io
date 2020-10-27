@@ -22,7 +22,6 @@
     width: 73%;
     background-color: rgba(255, 190, 136, 0.877);
     border-radius: 10px;
-    min-width: 500px;
 }
 
 #demo{
@@ -77,36 +76,30 @@ h1{
     font-family: bake;
 }
 
-.links{
-    margin-left: 15%;
+#links{
     width: 30%;
-    height: 150px;
     text-align: center;
-    float: left;
-    margin-bottom: 10%;
+    display: inline-block;
+    margin-left: 15%;
+    margin-bottom: 5%;
 }
-.links a{
+#contact{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin-left: 5%;
+}
+#loc{
+    width: 40%;
+    text-align: center;
+    margin-left: 28%;
+    display: block;
+}
+#links a{
     font-size: 50px;
     text-decoration: none;
     color: #272727;
     margin-left: 0.5%;
     margin-right: 0.5%;
-}
-
-.contact{
-    margin-left: 5%;
-    width: 30%;
-    height: 150px;
-    text-align: center;
-    float: left;
-    margin-bottom: 10%;
-}
-
-.loc{
-    margin-left: 28%;
-    width: 40%;
-    height: 150px;
-    text-align: center;
-    display: block;
 }
 
