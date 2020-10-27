@@ -9,77 +9,42 @@ body{
 }
 
 .header img{
-    width: 10%;
     border-radius: 50%;
     position: relative;
     z-index: 2;
+    max-width: 10%;
+    min-height: auto;
 }
 
-.nav{
+nav{
+    min-width: 480px;
     margin-top: -2%;
-    background-color: #272727;
-    width: 70%;
     margin-left: 14%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    position: absolute;
-    z-index: 1;
+    border-radius: 10px;
+    width: 70%;
+    background-color: #272727;
+}
+
+nav a:hover{
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+#fb-icn{
+    text-align: center;
+    font-size: 3x;
+    width: 40px;
+    border-radius: 100%;
+}
+
+.navbar-toggler{
+    border-color: #000000;
+    border-width: 1.8px;
     border-radius: 5px;
 }
 
-.nav #left{
-    float: left;
-    padding-left: 1%;
-    width: 50%;
+.navbar-toggler:hover{
+    border-color: #ffffff;
+    border-width: 2px;
+    border-radius: 5px;
 }
-
-#left a{
-    color: #f7ede2;
-    text-decoration: none;
-    border-right: dashed;
-    padding: 1% 3% 1% 3%;
-    border-width: 1px;
-    border-color: black;
-    display: inline;
-    transition-duration: 0.5s;
-}
-
-#right{
-    width: 50%;
-    text-align: right;
-    float: right;
-    padding-right: 3%;
-}
-/*.
-#right a{
-    color: aliceblue;
-    text-decoration: none;
-    padding: 1% 2% 1% 2%;
-    border-width: 1px;
-}*/
-
-a:hover{
-    background-color: rgb(255, 255, 255, 0.5);
-}
-
-.icn{
-    position: relative;
-    color: #f7ede2;
-    text-decoration: none;
-    margin-top: -1%;
-    margin-bottom: -1%;
-    padding: 1% 1% 1% 1%;
-    border-width: 1px;
-    border-color: black;
-    border-radius: 50%;
-    font-size: 15px;
-    transition-duration: 0.5s;
-}
-.icn:hover{
-    background-color: rgb(255, 255, 255, 0.5);
-}
-
-
