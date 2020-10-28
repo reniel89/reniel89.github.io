@@ -3,11 +3,13 @@
   padding-top: 5%;
   padding-bottom: 5%;
   border-radius: 10px;
+  width: 70%;
 }
 
 
 .carousel-control-prev, .carousel-control-next{
   border-radius: 10px;
+  width: 1vw;
 }
 .carousel-control-prev:active, .carousel-control-next:active{
   background-color: rgba(255, 255, 255, 0.5);
@@ -15,4 +17,8 @@
 
 .carousel-indicators{
   margin-bottom: -3%;
+}
+
+.carousel-inner img{
+  width: 15vw;
 }

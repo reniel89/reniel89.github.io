@@ -12,8 +12,7 @@ body{
     border-radius: 50%;
     position: relative;
     z-index: 2;
-    max-width: 10%;
-    min-height: auto;
+    width: 10vw;
 }
 
 nav{

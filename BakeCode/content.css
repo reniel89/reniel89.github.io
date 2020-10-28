@@ -39,7 +39,7 @@
 .hed{
     font-family: bakery;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 4vw;
     color: #272727;
 }
 
@@ -52,14 +52,14 @@
     font-family: Helvetica, sans-serif, arial;
     font-weight: normal;
     color: #272727;
-    font-size: 15px;
+    font-size: 1.3vw;
 }
 
-.inq p{
+#loc p, #contact p{
     font-family: AbrilFatface-Regular;
     font-weight: normal;
     color: #272727;
-    font-size: 15px;
+    font-size: 1.3vw;
 }
 
 
@@ -72,7 +72,7 @@ hr{
 
 h1{
     color: #272727;
-    font-size: 40px;
+    font-size: 3vw;
     font-family: bake;
 }
 
@@ -90,7 +90,7 @@ h1{
     text-align: center;
 }
 #links a{
-    font-size: 50px;
+    font-size: 3vw;
     text-decoration: none;
     color: #272727;
     margin-left: 0.5%;
